@@ -1,0 +1,52 @@
+header {
+  background: url(../images/flowers.jpg) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  padding-bottom: 5rem;
+}
+
+h1 {
+  color: rgba(134,19,88,0.9);
+  font-weight: bold;
+}
+
+.slogan {
+  color: rgba(121,59,97,0.8);
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+
+main {
+  max-width: 900px;
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+.project img {
+  width: 100%;
+}
+
+footer.mdl-mini-footer {
+  bottom: 0;
+  padding: 0.5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
